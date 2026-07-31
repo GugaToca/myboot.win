@@ -1,0 +1,9 @@
+# Myboot.win — atalhos amigaveis
+# Servem para ditar o endereco por telefone sem erro.
+
+/baixar        /instalador.bat   200
+/download      /instalador.bat   200
+/instalador    /instalador.bat   200
+/imagens       /imagens.html     200
+/ajuda         /ajuda.html       200
+/help          /ajuda.html       200

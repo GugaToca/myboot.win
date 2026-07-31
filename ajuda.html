@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Ajuda — Myboot.win</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="index.html">
+      <div class="marca-icone">&#9889;</div>
+      <div class="marca-nome">Myboot<span>.win</span></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="imagens.html">Imagens</a>
+      <a href="ajuda.html" class="ativo">Ajuda</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="hero" style="text-align:left;padding:48px 0 32px">
+      <h1 style="font-size:34px">Ajuda</h1>
+      <p class="lead" style="margin-left:0">
+        Como o Myboot.win funciona, o que preparar antes e o que fazer quando algo trava.
+      </p>
+    </div>
+
+    <section>
+      <h3 class="sub">Antes de comecar</h3>
+      <div class="grade">
+        <div class="card">
+          <span class="ico">&#128190;</span>
+          <h3>Backup feito</h3>
+          <p>Tudo no disco sera apagado. Documentos, area de trabalho, downloads.</p>
+        </div>
+        <div class="card">
+          <span class="ico">&#128267;</span>
+          <h3>Na tomada</h3>
+          <p>Notebook precisa ficar ligado na energia do inicio ao fim.</p>
+        </div>
+        <div class="card">
+          <span class="ico">&#127760;</span>
+          <h3>Rede estavel</h3>
+          <p>Cabo de rede sempre que possivel. Wi-Fi fraco derruba o download.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="sub">Como funciona por dentro</h3>
+      <div class="grade">
+        <div class="card">
+          <div class="num">1</div>
+          <h3>Instalador</h3>
+          <p>O arquivo .bat baixa o pacote do sistema e abre a tela principal.</p>
+        </div>
+        <div class="card">
+          <div class="num">2</div>
+          <h3>Preparo</h3>
+          <p>O sistema separa um espaco no disco e grava ali o ambiente de boot.</p>
+        </div>
+        <div class="card">
+          <div class="num">3</div>
+          <h3>Imagem</h3>
+          <p>A imagem do Windows e baixada do servidor direto para esse espaco.</p>
+        </div>
+        <div class="card">
+          <div class="num">4</div>
+          <h3>Reinicio</h3>
+          <p>O PC reinicia nesse ambiente e a instalacao acontece sem nenhuma midia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="sub">Perguntas comuns</h3>
+
+      <details>
+        <summary>O antivirus ou o navegador bloqueou o arquivo</summary>
+        <div class="corpo">
+          <p>Isso e normal com arquivos <code>.bat</code>. O navegador so esta avisando que
+          e um arquivo executavel.</p>
+          <ul>
+            <li>No Chrome ou Edge: clique nos tres pontos ao lado do download e escolha "Manter".</li>
+            <li>No SmartScreen do Windows: clique em "Mais informacoes" e depois "Executar assim mesmo".</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Diz que nao conseguiu acessar o site</summary>
+        <div class="corpo">
+          <p>O instalador precisa de internet para baixar o pacote.</p>
+          <ul>
+            <li>Confira se o computador esta conectado, abrindo qualquer site no navegador.</li>
+            <li>Em rede corporativa ou escolar, o endereco pode estar bloqueado pelo filtro. Fale com quem cuida da rede.</li>
+            <li>Se estiver em Wi-Fi de visitante com tela de login, faca o login antes.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>Pede permissao de administrador e nao passa</summary>
+        <div class="corpo">
+          <p>A conta usada precisa ser administrador da maquina. Se a janela azul aparece
+          e some, ou pede uma senha que voce nao tem, entre com uma conta de administrador
+          e abra o arquivo de novo.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Quanto tempo demora</summary>
+        <div class="corpo">
+          <p>Depende quase so da velocidade da rede. O download da imagem e a parte longa:
+          costuma variar de 20 minutos a algumas horas. O resto (preparo, instalacao e
+          primeiro boot) leva algo entre 20 e 40 minutos.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Posso desligar no meio</summary>
+        <div class="corpo">
+          <p>Nao. Desligar durante o preparo ou a instalacao pode deixar a maquina sem
+          conseguir iniciar. Se o processo travar de verdade, use a opcao de reverter no
+          proprio sistema antes de reiniciar.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>O disco nao tem espaco suficiente</summary>
+        <div class="corpo">
+          <p>O sistema precisa de espaco livre para guardar a imagem antes de instalar.
+          Libere espaco apagando arquivos grandes, ou escolha uma imagem menor na lista.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Como sei se deu certo</summary>
+        <div class="corpo">
+          <p>Ao final, o computador reinicia direto na instalacao do Windows e mostra a
+          tela de configuracao inicial. Se voltar para o Windows antigo, algo foi
+          interrompido: rode o instalador de novo e olhe a mensagem de erro.</p>
+        </div>
+      </details>
+    </section>
+
+    <section>
+      <div class="aviso">
+        <strong>Uso interno</strong>
+        <p>
+          Este site e as imagens sao para uso interno. Nao compartilhe o endereco nem
+          os arquivos fora da equipe.
+        </p>
+      </div>
+    </section>
+
+    <section style="text-align:center">
+      <a href="instalador.bat" class="btn" download>&#11015; Baixar instalador</a>
+      <span class="btn-nota">~5 KB &middot; Windows 10 e 11 &middot; Requer administrador</span>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Myboot.win &middot; uso interno &middot; <span id="ano"></span></div>
+    <div><span id="versao"></span> &middot; <span id="atualizado"></span></div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Myboot.win — o que NAO vai para o GitHub
+
+# Imagens do Windows (varios GB) — ficam no Cloudflare R2, nunca no repositorio
+*.wim
+*.swm
+*.esd
+*.iso
+*.vhd
+*.vhdx
+*.sdi
+
+# Lixo do Windows / OneDrive
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Netlify / build local
+.netlify/
+node_modules/

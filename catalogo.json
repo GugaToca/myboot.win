@@ -1,0 +1,30 @@
+{
+  "versao": 1,
+  "atualizadoEm": "31/07/2026",
+
+  "_leiaMe": "Este arquivo controla o que aparece no site e no instalador. Troque urlBase pelo endereco publico do seu bucket (Cloudflare R2). Os caminhos em bootWim, bootSdi e arquivos sao relativos a urlBase.",
+
+  "urlBase": "https://SEU-BUCKET.r2.dev/",
+
+  "imagens": [
+    {
+      "id": "pc114sp-win11-v14",
+      "nome": "Windows 11 Pro 24H2 - Escolar V14",
+      "descricao": "PC114SP - modelos MLSE03, MLSE13, MLSE23, SAX05, SAX06, SAX07",
+      "indice": 1,
+      "tamanhoBytes": 14840398250,
+
+      "bootWim": "pc114sp-v14/boot.wim",
+      "bootSdi": "pc114sp-v14/boot.sdi",
+
+      "arquivos": [
+        "pc114sp-v14/Install.swm",
+        "pc114sp-v14/Install2.swm",
+        "pc114sp-v14/Install3.swm",
+        "pc114sp-v14/Install4.swm"
+      ],
+
+      "unattend": ""
+    }
+  ]
+}

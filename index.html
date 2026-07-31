@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Myboot.win — Formatacao pela rede</title>
+<meta name="description" content="Formate um computador pela rede, sem pendrive e sem midia fisica.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="index.html">
+      <div class="marca-icone">&#9889;</div>
+      <div class="marca-nome">Myboot<span>.win</span></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="ativo">Inicio</a>
+      <a href="imagens.html">Imagens</a>
+      <a href="ajuda.html">Ajuda</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="hero">
+      <span class="selo">Sem pendrive &middot; Sem midia fisica</span>
+      <h1>Formate qualquer PC <span class="grad">pela rede</span></h1>
+      <p class="lead">
+        Baixe um arquivo de poucos KB, abra e siga a tela.
+        O sistema cuida do resto: baixa a imagem, prepara o boot e reinicia.
+      </p>
+    </div>
+
+    <div class="painel">
+      <h2>Comece por aqui</h2>
+      <p>Baixe o instalador no computador que sera formatado</p>
+      <div class="btn-linha">
+        <a href="instalador.bat" class="btn" download>&#11015; Baixar instalador</a>
+        <a href="ajuda.html" class="btn btn-2">Como funciona</a>
+      </div>
+      <span class="btn-nota">~5 KB &middot; Windows 10 e 11 &middot; Requer administrador</span>
+    </div>
+
+    <section>
+      <h2 class="titulo">Tres passos</h2>
+      <div class="grade">
+        <div class="card">
+          <div class="num">1</div>
+          <h3>Baixe</h3>
+          <p>Clique no botao acima. O arquivo cai na pasta Downloads.</p>
+        </div>
+        <div class="card">
+          <div class="num">2</div>
+          <h3>Abra</h3>
+          <p>Duplo clique no arquivo baixado e confirme a permissao de administrador.</p>
+        </div>
+        <div class="card">
+          <div class="num">3</div>
+          <h3>Escolha</h3>
+          <p>Selecione a imagem na tela que abrir e siga os botoes numerados.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:16px">
+        <h2 class="titulo" style="margin:0">Imagens disponiveis</h2>
+        <span id="contador" style="color:var(--txt3);font-size:12.5px"></span>
+      </div>
+      <div id="lista">
+        <div class="vazio">Carregando&hellip;</div>
+      </div>
+      <p style="margin-top:12px;font-size:13px;color:var(--txt3)">
+        Precisa dos detalhes tecnicos de cada imagem?
+        <a href="imagens.html" style="color:#93c5fd">Ver lista completa</a>
+      </p>
+    </section>
+
+    <section id="secao-arquivos" style="display:none">
+      <h2 class="titulo">Arquivos para download</h2>
+      <div id="lista-arquivos"></div>
+    </section>
+
+    <section>
+      <h2 class="titulo">O que voce ganha</h2>
+      <div class="grade">
+        <div class="card">
+          <span class="ico">&#128268;</span>
+          <h3>Zero midia</h3>
+          <p>Nada de pendrive, DVD ou HD externo. So a rede do lugar.</p>
+        </div>
+        <div class="card">
+          <span class="ico">&#128260;</span>
+          <h3>Sempre atualizado</h3>
+          <p>A imagem vem do servidor. Publicou uma versao nova, todo mundo ja usa ela.</p>
+        </div>
+        <div class="card">
+          <span class="ico">&#127919;</span>
+          <h3>Tela guiada</h3>
+          <p>Botoes numerados, linguagem simples. Nao precisa saber de comando.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="aviso aviso-vermelho">
+        <strong>Antes de formatar</strong>
+        <p>
+          Confirme que o backup dos dados ja foi feito, que o carregador esta conectado
+          e que este e o computador certo. A formatacao apaga tudo e nao tem como voltar atras.
+        </p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Myboot.win &middot; uso interno &middot; <span id="ano"></span></div>
+    <div><span id="versao"></span> &middot; <span id="atualizado"></span></div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

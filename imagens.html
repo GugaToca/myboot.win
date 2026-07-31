@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Imagens — Myboot.win</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="index.html">
+      <div class="marca-icone">&#9889;</div>
+      <div class="marca-nome">Myboot<span>.win</span></div>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="imagens.html" class="ativo">Imagens</a>
+      <a href="ajuda.html">Ajuda</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="hero" style="text-align:left;padding:48px 0 32px">
+      <h1 style="font-size:34px">Imagens publicadas</h1>
+      <p class="lead" style="margin-left:0">
+        Tudo que esta disponivel para instalar agora. A lista vem do
+        <code>catalogo.json</code> e muda sozinha quando uma imagem nova e enviada.
+      </p>
+    </div>
+
+    <section>
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:16px">
+        <h2 class="titulo" style="margin:0">Catalogo</h2>
+        <span id="contador" style="color:var(--txt3);font-size:12.5px"></span>
+      </div>
+      <div id="lista" data-detalhado="1">
+        <div class="vazio">Carregando&hellip;</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="aviso aviso-azul">
+        <strong>Nao baixe as imagens por aqui</strong>
+        <p>
+          As imagens tem varios GB e sao baixadas pelo proprio sistema, direto no computador
+          que vai ser formatado. Voce so precisa do
+          <a href="instalador.bat" download style="color:#93c5fd">instalador</a>.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="titulo">Como uma imagem e escolhida</h2>
+      <div class="grade">
+        <div class="card">
+          <div class="num">1</div>
+          <h3>Confira o modelo</h3>
+          <p>A descricao diz para quais modelos de maquina aquela imagem foi feita.</p>
+        </div>
+        <div class="card">
+          <div class="num">2</div>
+          <h3>Olhe o tamanho</h3>
+          <p>Imagens grandes levam mais tempo. Em rede lenta, prefira o horario vazio.</p>
+        </div>
+        <div class="card">
+          <div class="num">3</div>
+          <h3>Selecione na tela</h3>
+          <p>O instalador mostra a mesma lista. Basta escolher o numero correspondente.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>Myboot.win &middot; uso interno &middot; <span id="ano"></span></div>
+    <div><span id="versao"></span> &middot; <span id="atualizado"></span></div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

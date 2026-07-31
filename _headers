@@ -1,0 +1,30 @@
+# Myboot.win — cabecalhos do Netlify
+# Regras mais especificas primeiro.
+
+/instalador.bat
+  Content-Type: application/octet-stream
+  Content-Disposition: attachment; filename="instalador.bat"
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/sistema.zip
+  Content-Type: application/zip
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/catalogo.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: no-cache, no-store, must-revalidate
+  Access-Control-Allow-Origin: *
+
+/versao.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: no-cache, no-store, must-revalidate
+  Access-Control-Allow-Origin: *
+
+/assets/*
+  Cache-Control: public, max-age=3600
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
