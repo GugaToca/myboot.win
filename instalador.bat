@@ -7,10 +7,11 @@ rem
 rem   Este arquivo tem poucos KB. Ele baixa o resto sozinho.
 rem   O usuario so precisa dar duplo clique.
 rem
-rem   >>> Se o dominio mudar, troque o endereco abaixo <<<
+rem   >>> Quando o dominio myboot.win entrar no ar, troque a linha
+rem       abaixo por:  set "SITE=https://myboot.win"                <<<
 rem ===================================================================
 
-set "SITE=https://myboot.win"
+set "SITE=https://myboot-win.netlify.app"
 
 rem ===================================================================
 
