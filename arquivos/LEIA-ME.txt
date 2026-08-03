@@ -1,0 +1,21 @@
+Coloque aqui os arquivos pequenos que voce quer disponibilizar no site
+(drivers, scripts, manuais, etc.). Limite pratico do Netlify: 100 MB por arquivo.
+
+Depois de subir o arquivo, adicione uma entrada em ../arquivos.json:
+
+{
+  "arquivos": [
+    {
+      "nome": "Drivers de rede - Dell 3420",
+      "descricao": "Pacote de drivers para instalar depois da formatacao",
+      "caminho": "arquivos/drivers-dell-3420.zip",
+      "tamanhoBytes": 48234000
+    }
+  ]
+}
+
+A secao "Arquivos para download" so aparece na pagina inicial quando a lista
+tem pelo menos um item.
+
+IMPORTANTE: imagens do Windows (.wim / .swm, varios GB) NAO vao aqui.
+Elas ficam no bucket do Cloudflare R2 e sao listadas no catalogo.json.
